@@ -1,0 +1,45 @@
+{
+    "name"       : "selectTextOut",
+    "guid"       : "asc.{3B8F2D14-7A49-4C12-9E1C-6D5A0B43F2E1}",
+    "baseUrl"    : "",
+    "variations" : [
+        {
+            "description"         : "get document selected text out",
+            "url"                 : "index.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer"            : false,
+            "EditorsSupport"      : ["word"],
+            "isVisual"            : false,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "initData"            : "",
+            "isUpdateOleOnResize" : true,
+            "buttons"             : []
+        },
+        {
+            "description"         : "About",
+            "url"                 : "index_about.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer"            : false,
+            "EditorsSupport"      : ["word"],
+            "isVisual"            : true,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "initData"            : "",
+            "isUpdateOleOnResize" : true,
+            "buttons"         : [
+                {
+                    "text": "Ok",
+                    "textLocale": {
+                        "zh": "确认"
+                    },
+                    "primary": true
+                }
+            ],
+
+            "size" : [392, 147]
+        }
+    ]
+}
